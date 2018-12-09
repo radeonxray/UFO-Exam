@@ -68,9 +68,6 @@ _Picture E: The code above is a very simple example that shows how variables are
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](/BlogAssignment/tsTypeex.png)
 
 
@@ -82,12 +79,7 @@ One last feature that _static typing_ introduces is the concept of _[tree shakin
 
 However, the team did not get around to fully implement this feature in the project.
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project5.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project5.jpg "image_tooltip")
+![alt_text](/BlogAssignment/treeshaking2jpg.jpg)
 
 
 _Picture G_
@@ -144,7 +136,7 @@ One of the simple JavaScript operations that suddenly slightly increased in comp
 
 	 _Picture J: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
- \
+
 However, when trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
 
 
