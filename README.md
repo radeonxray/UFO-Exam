@@ -126,7 +126,7 @@ One of the simple JavaScript operations that suddenly slightly increased in comp
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-	 _Picture J: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
+_Picture J: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
 
 However, when trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
@@ -161,11 +161,7 @@ While TypeScript primarily uses _static typing_, types are still optional, meani
 The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is a "wildcard" that re-introduces an element of _dynamic typing_ back into a TypeScript project. It allows the developer to mix and match _types_, as seen in JavaScript and in picture E (to allow "any" interface to work in the class).
 
 
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project11.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project11.png "image_tooltip")
+![alt_text](/BlogAssignment/tsAnyKeyword.png)
 
 
 _Picture M: The use of the "any" keyword in action._
@@ -174,12 +170,7 @@ One could argue however, that there is a small exception for choosing to use the
 
 //@ts-ignore
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project12.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project12.png "image_tooltip")
+![alt_text](/BlogAssignment/tsIgnoreActive.png)
 
 
 _Picture N_
@@ -190,13 +181,13 @@ But just as with the exception for using the "_any_"-keyword, arguments for usin
 
 The effect of using these "backdoors" or "hacks", is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you loss the code consistency of knowing that all your variables have and use the correct _type_.
 
- \
+ 
 For a large scale project, using TypeScript correctly could therefore potentially greatly reduce the time and resources you might have needed to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
 
 # Conclusion
 
-While the team had some problems adjusting to TypeScript and _static typing_ in the beginning of the project, in the end, we became quite fond of developing using it. \
+While the team had some problems adjusting to TypeScript and _static typing_ in the beginning of the project, in the end, we became quite fond of developing using it. 
 
 
 Once we got more comfortable working with typing standards we were familiar with from other programming languages, but now in a JavaScript-project, a lot of the initial complaints and headaches began to subside.
@@ -224,15 +215,7 @@ Based on our experience and if you want to create a new JavaScript-project that 
 
 We sadly didn't have time to go into all the topics and benefits related to TypeScript (and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about TypeScript, we would highly recommend you to go learn about _interface_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
 
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project13.png "image_tooltip")
-
-
-_[Picture P](https://www.thevintagenews.com/2017/12/16/wild-west-era/)_
+_![Picture P](/BlogAssignment/thewildwest.jpg)_
 
 
 # 
