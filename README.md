@@ -3,15 +3,13 @@
 
 # Abstract
 
-Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript.
+* Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript.
 
-Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process.
+* Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process.
 
-While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code.
+* While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code.
 
-Sticking to the rules of static typing will help you better maintain your project, even as it and your team grow larger.
-
-
+* Sticking to the rules of static typing will help you better maintain your project, even as it and your team grow larger.
 
 
 # The issue: When JavaScript goes from _dynamic_ to _static_
@@ -47,15 +45,15 @@ One of the great benefits of TypeScript is that it, thanks to the _[static typin
 
 ![Picture C](/BlogAssignment/tsBasicJSEx.png) 
 
-_The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
+_Picture 3: The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
 
-_Picture 3_
+
 
 Although the above function expects a boolean value as parameter, you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter (as in the example above) and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using TypeScript's[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
 
 
 _![Picture D](/BlogAssignment/tsBasicTSEx.png)_
-
+_Picture 4_
 
 On the above TypeScript code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. TypeScript has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
@@ -66,14 +64,14 @@ Another quick example of _static typing_, is in the effect of _type-checking_. T
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
 
-_Picture E: The code above is a very simple example that shows how variables are mutable in JavaScript_
+_Picture 5: The code above is a very simple example that shows how variables are mutable in JavaScript_
 
 
 
 ![alt_text](/BlogAssignment/tsTypeex.png)
 
 
-_Picture F: The same JavaScript code as previously shown, but with errors due to being type-checked by TypeScript._
+_Picture 6: The same JavaScript code as previously shown, but with errors due to being type-checked by TypeScript._
 
 
 
@@ -84,7 +82,7 @@ However, the team did not get around to fully implement this feature in the proj
 ![alt_text](/BlogAssignment/treeshaking2jpg.jpg)
 
 
-_Picture G_
+_Picture 7_
 
 
 
@@ -101,7 +99,7 @@ As an example, below is a picture of an _interface _(basically a definition for 
 ![alt_text](/BlogAssignment/tsTypedInterface.png)
 
 
-_Picture H_
+_Picture 8_
 
 Also note in the picture that the React.Component has "to know" what interfaces are going to be used in the class and its state. This caused a lot confusion for most of the team members in the beginning, since they all of a sudden couldn't make simple array of objects like they had been used to in JavaScript.
 
@@ -116,7 +114,7 @@ While the project was developed using technologies such as React.js and NodeJS, 
 ![alt_text](/BlogAssignment/tsDependencies.png)
 
 
-_Picture I_ 
+_Picture 9_ 
 
 One of the simple JavaScript operations that suddenly slightly increased in complexity in TypeScript, was when trying to get data from a simple inputfield.
 
@@ -126,7 +124,7 @@ One of the simple JavaScript operations that suddenly slightly increased in comp
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-_Picture J: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
+_Picture 10: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
 
 However, when trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
@@ -137,7 +135,7 @@ However, when trying to extract the data in the handleCommentInput-function, the
 ![alt_text](/BlogAssignment/tsHandleCommentInput.png)
 
 
-_Picture K: Notice the type that is expected for the event-variable_
+_Picture 11: Notice the type that is expected for the event-variable_
 
 Another example of the amount of code required, is shown in the picture below, where the method is required to not only define the parameter _type_, but also the return _type_. 
 
@@ -145,7 +143,7 @@ Another example of the amount of code required, is shown in the picture below, w
 ![alt_text](/BlogAssignment/tsHandleSubmit.png)
 
 
-_Picture L_
+_Picture 12_
 
 
 ## 
@@ -164,7 +162,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 ![alt_text](/BlogAssignment/tsAnyKeyword.png)
 
 
-_Picture M: The use of the "any" keyword in action._
+_Picture 13: The use of the "any" keyword in action._
 
 One could argue however, that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for TypeScript, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
 
@@ -173,7 +171,7 @@ One could argue however, that there is a small exception for choosing to use the
 ![alt_text](/BlogAssignment/tsIgnoreActive.png)
 
 
-_Picture N_
+_Picture 14_
 
 Another way to avoid or in this case simply ignore an error thrown by TypeScript, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then TypeScript will ignore the following line of code. 
 
@@ -216,7 +214,7 @@ Based on our experience and if you want to create a new JavaScript-project that 
 We sadly didn't have time to go into all the topics and benefits related to TypeScript (and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about TypeScript, we would highly recommend you to go learn about _interface_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
 
 _![Picture P](/BlogAssignment/thewildwest.jpg)_
-
+_Picture 15_
 
 # 
 
