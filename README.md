@@ -1,5 +1,3 @@
-# UFO-Exam
-
 # What to watchout for when transitioning from Javascript to Typescript
 
 
