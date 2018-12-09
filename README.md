@@ -53,6 +53,7 @@ Although the above function expects a boolean value as parameter, you can easily
 
 
 _![Picture D](/BlogAssignment/tsBasicTSEx.png)_
+
 _Picture 4_
 
 On the above TypeScript code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. TypeScript has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
@@ -190,7 +191,7 @@ While the team had some problems adjusting to TypeScript and _static typing_ in 
 
 Once we got more comfortable working with typing standards we were familiar with from other programming languages, but now in a JavaScript-project, a lot of the initial complaints and headaches began to subside.
 
-Yes, because of _type-checking_,_ _it does take more work and code than just plain JavaScript, as well as the checks at compile time. But as we've hopefully shown throughout this blog, the benefits of minimizing mistakes, less time spent debugging and finding errors was a great tradeoff.
+Yes, because of _type-checking_, it does take more work and code than just plain JavaScript, as well as the checks at compile time. But as we've hopefully shown throughout this blog, the benefits of minimizing mistakes, less time spent debugging and finding errors was a great tradeoff.
 
 As seen in a couple of examples however, we admit that we did not follow the standards perfect during the project, since we've used the "_any_"-keyword and the "_//@ts-ignore_"-command. We hope that, as more and more modules roll out support for TypeScript, we will be able to go back and apply the correct use of TypeScript and _static typing_ in the instances where we cut corners in order for development to progress. 
 
