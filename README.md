@@ -215,6 +215,7 @@ Based on our experience and if you want to create a new JavaScript-project that 
 We sadly didn't have time to go into all the topics and benefits related to TypeScript (and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about TypeScript, we would highly recommend you to go learn about _interface_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
 
 _![Picture P](/BlogAssignment/thewildwest.jpg)_
+
 _Picture 15_
 
 # 
@@ -251,8 +252,6 @@ _Picture 15_
 
 
 Pictures:
-
-
 
 1.  [https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png) 3/12-2018 
 1.  [https://memegenerator.net/instance/59547146/futurama-fry-not-sure-if-typescript-or-just-javascript](https://memegenerator.net/instance/59547146/futurama-fry-not-sure-if-typescript-or-just-javascript) 3/12-2018
