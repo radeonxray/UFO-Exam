@@ -45,7 +45,9 @@ So in this blog, we want to shed some light on _static typing_ in TypeScript, ho
 
 One of the great benefits of TypeScript is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. This means that TypeScript compiles and checks the code for errors even before you execute your program. If TypeScript then detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of static typing, below is shown code examples showing the same function written in respectively JavaScript and TypeScript.
 
-_![Picture C](/BlogAssignment/tsBasicJSEx.png): The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
+_![Picture C](/BlogAssignment/tsBasicJSEx.png) 
+
+The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
 
 _Picture 3_
 
