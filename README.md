@@ -5,11 +5,11 @@
 
 Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript.
 
-_Static typing_ can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process.
+Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process.
 
 While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code.
 
-Sticking to the rules of _static typing_ will help you better maintain your project, even as it and your team grow larger.
+Sticking to the rules of static typing will help you better maintain your project, even as it and your team grow larger.
 
 
 
