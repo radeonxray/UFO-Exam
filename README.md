@@ -22,11 +22,15 @@ For those unfamiliar, TypeScript is a superset of [JavaScript](https://www.javas
 
 ![Picture A ](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png)
 
+_Picture 1_
+
 But while changing to another programming language, even those that are build upon an existing one and one you might be very familiar with, there is always going to be a [learning curve](https://medium.com/quick-code/top-tutorials-to-learn-typescript-c08834892e69) and the development of this project was no exception. 
 
 Because using TypeScript means that JavaScript changes from being _[dynamically-typed to statically-typed](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb)_, something seen in other programming languages like [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
 
 ![Picture B](/BlogAssignment/futurerama.jpg)
+
+_Picture 2_
 
 So in this blog, we want to shed some light on _static typing_ in TypeScript, how it affected the development of our LSD-project, what we learned to do (and not do) and why you definitely should give it a try the next time you start a JavaScript project.
 
@@ -41,27 +45,15 @@ So in this blog, we want to shed some light on _static typing_ in TypeScript, ho
 
 One of the great benefits of TypeScript is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. This means that TypeScript compiles and checks the code for errors even before you execute your program. If TypeScript then detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of static typing, below is shown code examples showing the same function written in respectively JavaScript and TypeScript.
 
+_![Picture C](/BlogAssignment/tsBasicJSEx.png): The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project1.png "image_tooltip")
-
-
-_[Picture C](https://stackify.com/typescript-vs-javascript<-migrate/): The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
+_Picture 3_
 
 Although the above function expects a boolean value as parameter, you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter (as in the example above) and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using TypeScript's[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
 
 
+_![Picture D](/BlogAssignment/tsBasicTSEx.png)_
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project2.png "image_tooltip")
-
-
-_[Picture D](https://stackify.com/typescript-vs-javascript<-migrate/)_
 
 On the above TypeScript code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. TypeScript has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
@@ -69,10 +61,7 @@ Another quick example of _static typing_, is in the effect of _type-checking_. T
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project3.png "image_tooltip")
+![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
 
 _Picture E: The code above is a very simple example that shows how variables are mutable in JavaScript_
@@ -82,7 +71,7 @@ _Picture E: The code above is a very simple example that shows how variables are
 <p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Blog-Project4.png "image_tooltip")
+![alt_text](/BlogAssignment/tsTypeex.png)
 
 
 _Picture F: The same JavaScript code as previously shown, but with errors due to being type-checked by TypeScript._
