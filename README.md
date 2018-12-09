@@ -20,21 +20,13 @@ For our Large System Development project ["Hackernews-clone](https://github.com/
 
 For those unfamiliar, TypeScript is a superset of [JavaScript](https://www.javascript.com/). This basically means that you are required to have some sort of knowledge and understanding of JavaScript, since TypeScript and its new features are built on top of it. 
 
-_[Picture A ](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png)_
+![Picture A ](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png)
 
 But while changing to another programming language, even those that are build upon an existing one and one you might be very familiar with, there is always going to be a [learning curve](https://medium.com/quick-code/top-tutorials-to-learn-typescript-c08834892e69) and the development of this project was no exception. 
 
 Because using TypeScript means that JavaScript changes from being _[dynamically-typed to statically-typed](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb)_, something seen in other programming languages like [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project0.png "image_tooltip")
-
-
-_[Picture B](https://memegenerator.net/instance/59547146/futurama-fry-not-sure-if-typescript-or-just-javascript)_
+![Picture B](/BlogAssignment/futurerama.jpg)
 
 So in this blog, we want to shed some light on _static typing_ in TypeScript, how it affected the development of our LSD-project, what we learned to do (and not do) and why you definitely should give it a try the next time you start a JavaScript project.
 
