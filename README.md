@@ -268,5 +268,4 @@ Pictures:
 1.  Screenshot
 1.  Screenshot
 1.  Screenshot
-1.  [https://cdn-images-1.medium.com/max/2000/1*SSo_VpLEJ49WTi_ubpTVGQ.png](https://cdn-images-1.medium.com/max/2000/1*SSo_VpLEJ49WTi_ubpTVGQ.png) 09/12-2018
 1.  [https://www.thevintagenews.com/2017/12/16/wild-west-era/](https://www.thevintagenews.com/2017/12/16/wild-west-era/) 09/12-2018
