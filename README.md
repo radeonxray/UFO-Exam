@@ -45,9 +45,9 @@ So in this blog, we want to shed some light on _static typing_ in TypeScript, ho
 
 One of the great benefits of TypeScript is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. This means that TypeScript compiles and checks the code for errors even before you execute your program. If TypeScript then detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of static typing, below is shown code examples showing the same function written in respectively JavaScript and TypeScript.
 
-_![Picture C](/BlogAssignment/tsBasicJSEx.png) 
+![Picture C](/BlogAssignment/tsBasicJSEx.png) 
 
-The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
+_The above JavaScript code example demonstrates one of the biggest problems you may encounter by using plain JavaScript_
 
 _Picture 3_
 
@@ -97,12 +97,8 @@ Using _static typing_ meant that the team had to write and define more code (tha
 
 As an example, below is a picture of an _interface _(basically a definition for an _object_) with typed variables.
 
- 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project6.png "image_tooltip")
+![alt_text](/BlogAssignment/tsTypedInterface.png)
 
 
 _Picture H_
@@ -117,10 +113,7 @@ While the project was developed using technologies such as React.js and NodeJS, 
 
 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project7.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project7.png "image_tooltip")
+![alt_text](/BlogAssignment/tsDependencies.png)
 
 
 _Picture I_ 
@@ -130,10 +123,7 @@ One of the simple JavaScript operations that suddenly slightly increased in comp
 
 ## 
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project8.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project8.png "image_tooltip")
+![alt_text](/BlogAssignment/tsOnChange.png)
 
 
 	 _Picture J: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
@@ -143,10 +133,8 @@ However, when trying to extract the data in the handleCommentInput-function, the
 
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/Blog-Project9.png "image_tooltip")
+![alt_text](/BlogAssignment/tsHandleCommentInput.png)
 
 
 _Picture K: Notice the type that is expected for the event-variable_
@@ -154,11 +142,7 @@ _Picture K: Notice the type that is expected for the event-variable_
 Another example of the amount of code required, is shown in the picture below, where the method is required to not only define the parameter _type_, but also the return _type_. 
 
 
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Project10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Project10.png "image_tooltip")
+![alt_text](/BlogAssignment/tsHandleSubmit.png)
 
 
 _Picture L_
