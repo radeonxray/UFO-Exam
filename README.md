@@ -115,7 +115,7 @@ One of the simple JavaScript operations that suddenly slightly increased in comp
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-_Picture 10: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
+_Picture 9: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
 
 However, when trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
@@ -126,7 +126,7 @@ However, when trying to extract the data in the handleCommentInput-function, the
 ![alt_text](/BlogAssignment/tsHandleCommentInput.png)
 
 
-_Picture 11: Notice the type that is expected for the event-variable_
+_Picture 10: Notice the type that is expected for the event-variable_
 
 Another example of the amount of code required, is shown in the picture below, where the method is required to not only define the parameter _type_, but also the return _type_. 
 
@@ -134,7 +134,7 @@ Another example of the amount of code required, is shown in the picture below, w
 ![alt_text](/BlogAssignment/tsHandleSubmit.png)
 
 
-_Picture 12_
+_Picture 11_
 
 
 ## 
@@ -153,7 +153,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 ![alt_text](/BlogAssignment/tsAnyKeyword.png)
 
 
-_Picture 13: The use of the "any" keyword in action._
+_Picture 12: The use of the "any" keyword in action._
 
 One could argue however, that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for TypeScript, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
 
@@ -162,7 +162,7 @@ One could argue however, that there is a small exception for choosing to use the
 ![alt_text](/BlogAssignment/tsIgnoreActive.png)
 
 
-_Picture 14_
+_Picture 13_
 
 Another way to avoid or in this case simply ignore an error thrown by TypeScript, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then TypeScript will ignore the following line of code. 
 
@@ -175,7 +175,7 @@ While the project was developed using technologies such as React.js and NodeJS, 
 ![alt_text](/BlogAssignment/tsDependencies.png)
 
 
-_Picture 9_
+_Picture 14_
 
 The effect of using these "backdoors" or "hacks", is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you loss the code consistency of knowing that all your variables have and use the correct _type_.
 
