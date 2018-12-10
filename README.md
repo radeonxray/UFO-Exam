@@ -198,9 +198,9 @@ It's important not to get tempted to only and always use such "hacking" features
 
 [Aux](https://medium.com/@auxx/typescript-pros-and-cons-873529634099) summarized a similar point regarding _static typing_ and TypeScript:
 
-"_Statically typed languages do minimise the amount of mistakes you make and improve code analysis so that all your tools like IDE can provide you hints, assistance and proper refactoring. _
+"_Statically typed languages do minimise the amount of mistakes you make and improve code analysis so that all your tools like IDE can provide you hints, assistance and proper refactoring._
 
-_Yes, it forces you to type a bit more, and yes, types are optional in TS so you can easily shoot yourself in the foot, but I still find them very beneficial. _
+_Yes, it forces you to type a bit more, and yes, types are optional in TS so you can easily shoot yourself in the foot, but I still find them very beneficial._
 
 _Especially for medium to large teams working on large projects which should be supported for many years._" 
 
