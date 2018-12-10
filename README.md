@@ -58,7 +58,7 @@ _Picture 4_
 
 On the above TypeScript code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. TypeScript has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
-Another quick example of _static typing_, is in the effect of _type-checking_. This means that for example variables (or return values in functions as seen in the previous picture) has to have their types defined, like string, number, Array etc. This effectively creates a "contract" for the developers that needs to be uphold, if the project is to compile correctly.
+Another quick example of _static typing_, is in the effect of _type-checking_. It means that for example variables (or return values in functions as seen in the previous picture) has to have their types defined, like string, number, Array etc. This effectively creates a "contract" for the developers that needs to be uphold, if the project is to compile correctly.
 
 
 
