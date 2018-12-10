@@ -105,17 +105,7 @@ _Picture 8_
 Also note in the picture that the React.Component has "to know" what interfaces are going to be used in the class and its state. This caused a lot confusion for most of the team members in the beginning, since they all of a sudden couldn't make simple array of objects like they had been used to in JavaScript.
 
 The tradeoff however, has been the fact that the team has spent less time debugging for variables that have gone "bad" and perhaps mutated into other types than originally intended, while also avoiding un-instantiated variables. 
-
-
-
-While the project was developed using technologies such as React.js and NodeJS, special libraries (@types/) had to be downloaded in order to proper function with TypeScript as seen in the picture below.
-
-
-
-![alt_text](/BlogAssignment/tsDependencies.png)
-
-
-_Picture 9_ 
+ 
 
 One of the simple JavaScript operations that suddenly slightly increased in complexity in TypeScript, was when trying to get data from a simple inputfield.
 
@@ -177,6 +167,15 @@ _Picture 14_
 Another way to avoid or in this case simply ignore an error thrown by TypeScript, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then TypeScript will ignore the following line of code. 
 
 But just as with the exception for using the "_any_"-keyword, arguments for using the "//_@ts-ignore_" could also be made, due to some libraries perhaps lacking proper TypeScript support and documentation.
+
+
+While the project was developed using technologies such as React.js and NodeJS, special libraries (@types/) had to be downloaded in order to proper function with TypeScript as seen in the picture below, showing the projects dependencies (https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
+"//_@ts-ignore_
+
+![alt_text](/BlogAssignment/tsDependencies.png)
+
+
+_Picture 9_
 
 The effect of using these "backdoors" or "hacks", is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you loss the code consistency of knowing that all your variables have and use the correct _type_.
 
