@@ -169,7 +169,7 @@ Another way to avoid or in this case simply ignore an error thrown by TypeScript
 But just as with the exception for using the "_any_"-keyword, arguments for using the "//_@ts-ignore_" could also be made, due to some libraries perhaps lacking proper TypeScript support and documentation.
 
 
-While the project was developed using technologies such as React.js and NodeJS, special libraries (@types/) had to be downloaded in order to proper function with TypeScript as seen in the picture below, showing the projects dependencies (https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
+While the project was developed using technologies such as React.js and NodeJS, special libraries (@types/) had to be downloaded in order to proper function with TypeScript as seen in the picture below, showing the projects [dependencies] (https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
 "//_@ts-ignore_
 
 ![alt_text](/BlogAssignment/tsDependencies.png)
