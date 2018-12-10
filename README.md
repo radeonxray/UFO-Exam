@@ -90,9 +90,9 @@ _Picture 7_
 
 ## So how did _static typing_ affect our project?
 
-The team spent quite some time getting adjusted to the fact that we were writing JavaScript-code, but with some modern features and rules. Developers would often forget to specify the _type _of a variable, especially when creating _[interfaces](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136)_, thus making it impossible to compile the project. 
+The team spent quite some time getting adjusted to the fact that we were writing JavaScript-code, but with some modern features and rules. Developers would often forget to specify the _type _of variable, especially when creating _[interfaces](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136)_, thus making it impossible to compile the project. 
 
-Using _static typing_ meant that the team had to write and define more code (thanks to _type-checking_) than would probably be needed if the team has opted to use _dynamic typing_. 
+Using _static typing_ meant that the team had to write and define more code (due to _type-checking_) than would probably be needed if the team has opted to use _dynamic typing_. 
 
 As an example, below is a picture of an _interface _(basically a definition for an _object_) with typed variables.
 
@@ -147,7 +147,7 @@ While TypeScript primarily uses _static typing_, types are still optional, meani
 
 ### any-keyword 
 
-The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is a "wildcard" that re-introduces an element of _dynamic typing_ back into a TypeScript project. It allows the developer to mix and match _types_, as seen in JavaScript and in picture E (to allow "any" interface to work in the class).
+The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is a "wildcard" that re-introduces an element of _dynamic typing_ back into a TypeScript project. It allows the developer to mix and match _types_, as often seen in JavaScript.
 
 
 ![alt_text](/BlogAssignment/tsAnyKeyword.png)
@@ -155,7 +155,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 
 _Picture 12: The use of the "any" keyword in action._
 
-One could argue however, that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for TypeScript, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
+One could argue however that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for TypeScript, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
 
 //@ts-ignore
 
@@ -164,7 +164,7 @@ One could argue however, that there is a small exception for choosing to use the
 
 _Picture 13_
 
-Another way to avoid or in this case simply ignore an error thrown by TypeScript, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then TypeScript will ignore the following line of code. 
+Another way to avoid or in this case simply ignore an error thrown by TypeScript, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then TypeScript will ignore the next line of code. 
 
 But just as with the exception for using the "_any_"-keyword, arguments for using the "//_@ts-ignore_" could also be made, due to some libraries perhaps lacking proper TypeScript support and documentation.
 
@@ -190,7 +190,7 @@ While the team had some problems adjusting to TypeScript and _static typing_ in 
 
 Once we got more comfortable working with typing standards we were familiar with from other programming languages, but now in a JavaScript-project, a lot of the initial complaints and headaches began to subside.
 
-Yes, because of _type-checking_, it does take more work and code than just plain JavaScript, as well as the checks at compile time. But as we've hopefully shown throughout this blog, the benefits of minimizing mistakes, less time spent debugging and finding errors was a great tradeoff.
+Yes, because of _type-checking_, it does take more work and code than just plain JavaScript, as well as the checks at compile time. But as we've hopefully shown throughout this blog, the benefits of minimizing mistakes, less time spent debugging and finding errors, was a great tradeoff.
 
 As seen in a couple of examples however, we admit that we did not follow the standards perfect during the project, since we've used the "_any_"-keyword and the "_//@ts-ignore_"-command. We hope that, as more and more modules roll out support for TypeScript, we will be able to go back and apply the correct use of TypeScript and _static typing_ in the instances where we cut corners in order for development to progress. 
 
@@ -211,7 +211,7 @@ The biggest challenge in transitioning from JavaScript to TypeScript, is your mi
 
 Based on our experience and if you want to create a new JavaScript-project that is able to lay down some coding standards and be suitable for a large team development, we can only highly recommend giving TypeScript a look. The learning curve can be tricky and the documentation for modules can sometimes be missing, but our team felt it was worth the hassle and extra hours in the end. Should TypeScript maintains its [popularity](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), the documentation will slowly and surely follow. 
 
-We sadly didn't have time to go into all the topics and benefits related to TypeScript (and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about TypeScript, we would highly recommend you to go learn about _interface_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
+We sadly didn't have time to go into all the topics and benefits related to TypeScript (and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about TypeScript, we would highly recommend you to go learn about _[interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html)_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
 
 _![Picture P](/BlogAssignment/thewildwest.jpg)_
 
