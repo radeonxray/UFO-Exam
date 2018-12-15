@@ -4,8 +4,8 @@ By _Christian Olsen_ & _Zaeem Rafique_
 
 _Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
 
-# Intro to TypeScript, its features and its popularity
-In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/) project.
+# Intro to TypeScript
+In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/)(TS), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/)(JS) project.
 
 TypeScript is a superset of JavaScript developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of JavaScript, since TypeScript and its new features are built on top of it.
 Some of the features in TypeScript includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest JavaScript features. 
@@ -17,26 +17,12 @@ TypeScript also supports popular frameworks such as React, React-Native, Vue, No
 
 _Picture 1_
 
-To get a sense of how popular TypeScript is, stackoverflow conducts a yearly survey asking their users various questions regarding their experience and thoughts about technologies. In 2018 over 100.000 developers from over 183 different countries completed the survey.
-
-Looking at the technologies that developers found “most wanted”, JavaScript is placed 4th out of 25 with 19.0% of the votes, while Typescript takes the 5th place out of 25 with 11.9% of the votes. 
-
-![SOF-MostWanted](/BlogAssignment/stackoverflow-MostWanted.png)
-
-When asked about the technologies the developers loved, 67.0% said they loved Typescript which placed it 4th out of 25, placing it only behind technologies such as Python (68.0%), Kotlin (75.1%) and Rust (78.9%), but it notably beating Javascript which placed 7th with 61.9%.
-
-![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
-
-So to summarize: 
-While the surveys show that JavaScript is more “wanted” than TypeScript, one reason for this could be because TypeScript is based on JavaScript, thus knowledge and experience with JavaScript is required in order to work with TypeScript. Furthermore, the fact that TypeScript beat JavaScript in the “Most Loved”-category would suggest that developers might be more happy working with JavaScript code when its TypeScript, which perhaps might be because of features and tools found in TypeScript.  
-
-
 # The issue: When JavaScript goes from _dynamic_ to _static_
 ![Puzzle](/BlogAssignment/dynamictypingvsstatictyping-puzzle.png)
 
 One of the big changes that TypeScript introduces to JavaScript, is the switch from [_dynamic typing_ to _static typing_](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb).
 
-The differences between the two can be explained by:
+The differences between the two can be explained as such:
 - _Dynamic typing_: _Type-checking_ at runtime
 - _Static Typing_: _Type-checking_ at compile time
 
@@ -49,7 +35,7 @@ In other words, _static tpying_ makes JavaScript more like other languages such 
 # Evidence / Research 
 
 
-## So what does _static typing_ entail in TypeScript?
+## What does _static typing_ entail in TypeScript?
 
 One of the great benefits of TypeScript is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. This means that TypeScript compiles and checks the code for errors even before you execute your program. If TypeScript then detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of static typing, below is shown code examples showing the same function written in respectively JavaScript and TypeScript.
 
@@ -83,6 +69,22 @@ _Picture 5: The code above is a very simple example that shows how variables are
 
 
 _Picture 6: The same JavaScript code as previously shown, but with errors due to being type-checked by TypeScript._
+
+## Why TypeScript?
+
+To get a sense of how popular TypeScript is, stackoverflow conducts a yearly survey asking their users various questions regarding their experience and thoughts about technologies. In 2018 over 100.000 developers from over 183 different countries completed the survey.
+
+Looking at the technologies that developers found “most wanted”, JavaScript is placed 4th out of 25 with 19.0% of the votes, while Typescript takes the 5th place out of 25 with 11.9% of the votes. 
+
+![SOF-MostWanted](/BlogAssignment/stackoverflow-MostWanted.png)
+
+When asked about the technologies the developers loved, 67.0% said they loved Typescript which placed it 4th out of 25, placing it only behind technologies such as Python (68.0%), Kotlin (75.1%) and Rust (78.9%), but it notably beating Javascript which placed 7th with 61.9%.
+
+![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
+
+So to summarize: 
+While the surveys show that JavaScript is more “wanted” than TypeScript, one reason for this could be because TypeScript is based on JavaScript, thus knowledge and experience with JavaScript is required in order to work with TypeScript. Furthermore, the fact that TypeScript beat JavaScript in the “Most Loved”-category would suggest that developers might be more happy working with JavaScript code when its TypeScript, which perhaps might be because of features and tools found in TypeScript.  
+
 
 ## So how did _static typing_ affect our project?
 
@@ -153,7 +155,7 @@ _Picture 12: The use of the "any" keyword in action._
 
 One could argue however that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for TypeScript, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
 
-//@ts-ignore
+### //@ts-ignore
 
 ![alt_text](/BlogAssignment/tsIgnoreActive.png)
 
