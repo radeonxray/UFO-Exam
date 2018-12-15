@@ -11,7 +11,7 @@ For our Large System Development project ["Hackernews-clone](https://github.com/
 
 TypeScript is a superset of [JavaScript](https://www.javascript.com/) developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of JavaScript, since TypeScript and its new features are built on top of it.
 Some of the features in TypeScript includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest JavaScript features. 
-TypeScript also include for transpiling its code to ES3, making the code highly compatible with various browser, both old and new. 
+TypeScript also include support for transpiling its code to ES3, making the code highly compatible with various browser, both old and new. 
 
 TypeScript also supports popular frameworks such as React, React-Native, Vue, NodeJS, Angular and [more](https://www.typescriptlang.org/samples/index.html) and TypeScript is currently being used at companies such as Bet365, SKY, Ubisoft, Ebay and [many more](https://www.typescriptlang.org/community/friends.html).
 
