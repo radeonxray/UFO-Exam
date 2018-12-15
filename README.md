@@ -32,19 +32,18 @@ While the surveys show that JavaScript is more “wanted” than TypeScript, one
 
 
 # The issue: When JavaScript goes from _dynamic_ to _static_
-
-One of the big changes that TypeScript introduces to JavaScript, is the switch from dynamic typing to static typing.
-
-But while changing to another programming language, even those that are build upon an existing one and one you might be very familiar with, there is always going to be a [learning curve](https://medium.com/quick-code/top-tutorials-to-learn-typescript-c08834892e69) and the development of this project was no exception. 
-
-Because using TypeScript means that JavaScript changes from being _[dynamically-typed to statically-typed](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb)_, something seen in other programming languages like [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
-
-![Picture B](/BlogAssignment/futurerama.jpg)
-
-_Picture 2_
 ![Puzzle](/BlogAssignment/dynamictypingvsstatictyping-puzzle.png)
 
-# 
+One of the big changes that TypeScript introduces to JavaScript, is the switch from [_dynamic typing_ to _static typing_](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb).
+
+The differences between the two can be explained by:
+- _Dynamic typing_: _Type-checking_ at runtime
+- _Static Typing_: _Type-checking_ at compile time
+
+Because of these differences, one of the huge benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during run time and crash the application. 
+
+In other words, _static tpying_ makes JavaScript more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more, and this will be shown in the next section.
+
 
 
 # Evidence / Research 
