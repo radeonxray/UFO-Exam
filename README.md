@@ -5,13 +5,13 @@ By _Christian Olsen_ & _Zaeem Rafique_
 _Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
 
 # Intro to TypeScript
-In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/)(known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/)(known as _JS_ from here on) project.
+In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/)(known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/)-project (known as _JS_ from here on).
 
 _TS_ is a superset of _JS_ developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of _JS_, since _TS_ and its new features are built on top of it.
 Some of the features in _TS_ includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest _JS_ features. 
 _TS_ also include support for transpiling its code to older ES-versions, making the code highly compatible with various browser.
 
-_TS_ also supports popular frameworks such as React, React-Native, Vue, NodeJS, Angular and [more](https://www.typescriptlang.org/samples/index.html), and _TS_ is currently being used at companies such as Bet365, SKY, Ubisoft, Ebay and [many more](https://www.typescriptlang.org/community/friends.html).
+_TS_ also supports popular frameworks such as _React_, _React-Native_, _Vue_, _NodeJS_, _Angular_ and [more](https://www.typescriptlang.org/samples/index.html), and _TS_ is currently being used at companies such as _Bet365_, _SKY_, _UbiSoft_, _Ebay_ and [many more](https://www.typescriptlang.org/community/friends.html).
 
 ![Picture A ](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png)
 
@@ -87,11 +87,11 @@ While the surveys show that _JS_ is more “wanted” than _TS_, one reason for 
 
 ## So how did _static typing_ affect our project?
 
-The team spent quite some time getting adjusted to the fact that we were writing _JS_-code, but with some modern features and rules. Developers would often forget to specify the _type _of variable, especially when creating _[interfaces](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136)_, thus making it impossible to compile the project. 
+The team spent quite some time getting adjusted to the fact that we were writing _JS_-code, but with some modern features and rules. We would often forget to specify the _type_ of variable, especially when creating _[interfaces](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136)_, thus making it impossible to compile the project. 
 
 Using _static typing_ meant that the team had to write and define more code (due to _type-checking_) than would probably be needed if the team has opted to use _dynamic typing_. 
 
-As an example, below is a picture of an _interface _(basically a definition for an _object_) with typed variables.
+As an example, below is a picture of an _interface_(basically a definition for an _object_) with _typed_ variables.
 
 
 ![alt_text](/BlogAssignment/tsTypedInterface.png)
