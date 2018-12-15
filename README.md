@@ -4,16 +4,14 @@ By Christian Olsen & Zaeem Rafique
 
 _Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
 
-# Intro to TypeScript and its popularity
-In this blog, we want to shed some light on _static typing_ in TypeScript, how it affected the development of our LSD-project, what we learned to do (and not do) and why you should consider using TypeScript the next time you start a JavaScript project.
+# Intro to TypeScript, its features and its popularity
+In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/) project.
 
-For our Large System Development project ["Hackernews-clone](https://github.com/BingoBois)", the development team tried to develop the project using the [TypeScript](http://www.typescriptlang.org/) programming-language. 
-
-TypeScript is a superset of [JavaScript](https://www.javascript.com/) developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of JavaScript, since TypeScript and its new features are built on top of it.
+TypeScript is a superset of JavaScript developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of JavaScript, since TypeScript and its new features are built on top of it.
 Some of the features in TypeScript includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest JavaScript features. 
 TypeScript also include support for transpiling its code to ES3, making the code highly compatible with various browser, both old and new. 
 
-TypeScript also supports popular frameworks such as React, React-Native, Vue, NodeJS, Angular and [more](https://www.typescriptlang.org/samples/index.html) and TypeScript is currently being used at companies such as Bet365, SKY, Ubisoft, Ebay and [many more](https://www.typescriptlang.org/community/friends.html).
+TypeScript also supports popular frameworks such as React, React-Native, Vue, NodeJS, Angular and [more](https://www.typescriptlang.org/samples/index.html), and TypeScript is currently being used at companies such as Bet365, SKY, Ubisoft, Ebay and [many more](https://www.typescriptlang.org/community/friends.html).
 
 ![Picture A ](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png)
 
@@ -181,6 +179,15 @@ The effect of using these "backdoors" or "hacks", is that you start breaking the
  
 For a large scale project, using TypeScript correctly could therefore potentially greatly reduce the time and resources you might have needed to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
+# Alternatives
+
+If one does not want to switch to TypeScript, but still wants the benefits if _static typing_ in a JavaScript project, there are alternative ways to achieve this.
+
+- The _Form_(https://flow.org/) library developed by Facebook
+![Flow](/BlogAssignment/flow.png)
+
+- The open-source project _Reason_(https://reasonml.github.io/)
+![Reason](/BlogAssignment/ReasonLogo.png) 
 
 # Conclusion
 
