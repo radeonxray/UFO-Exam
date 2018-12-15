@@ -1,15 +1,8 @@
-# What to watchout for when transitioning from Javascript to Typescript
+# How _TypeScript_ and _Static typing_ changes _JavaScript_
 By Christian Olsen & Zaeem Rafique
 
-# Abstract
 
-* Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript.
-
-* Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process.
-
-* While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code.
-
-* Sticking to the rules of static typing will help you better maintain your project, even as it and your team grow larger.
+_Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
 
 
 # The issue: When JavaScript goes from _dynamic_ to _static_
@@ -73,20 +66,6 @@ _Picture 5: The code above is a very simple example that shows how variables are
 
 
 _Picture 6: The same JavaScript code as previously shown, but with errors due to being type-checked by TypeScript._
-
-
-
-One last feature that _static typing_ introduces is the concept of _[tree shaking](https://medium.com/@FloSloot/tree-shaking-lets-implement-it-8de1c29f49e9)_, which makes sure that the bundler only includes libraries or the parts of the libraries that are actually used.
-
-However, the team did not get around to fully implement this feature in the project.
-
-![alt_text](/BlogAssignment/treeshaking2jpg.jpg)
-
-
-_Picture 7_
-
-
-
 
 ## So how did _static typing_ affect our project?
 
