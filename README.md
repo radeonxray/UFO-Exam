@@ -1,5 +1,5 @@
 # How _TypeScript_ and _Static typing_ can improve your _JavaScript_
-By Christian Olsen & Zaeem Rafique
+By _Christian Olsen_ & _Zaeem Rafique_
 
 
 _Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
@@ -40,7 +40,7 @@ The differences between the two can be explained by:
 - _Dynamic typing_: _Type-checking_ at runtime
 - _Static Typing_: _Type-checking_ at compile time
 
-Because of these differences, one of the huge benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during run time and crash the application. 
+Because of these differences, one of the huge benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
 
 In other words, _static tpying_ makes JavaScript more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more, and this will be shown in the next section.
 
