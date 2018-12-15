@@ -1,4 +1,4 @@
-# How _TypeScript_ and _Static typing_ changes _JavaScript_
+# How _TypeScript_ and _Static typing_ can improve your _JavaScript_
 By Christian Olsen & Zaeem Rafique
 
 
