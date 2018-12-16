@@ -27,8 +27,7 @@ The differences between the two can be explained as such:
 - _Static Typing_: _Type-checking_ at compile time
 
 Because of these differences, one of the huge benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
-
-In other words, _static tpying_ makes _JS_ more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
+In other words, _static typing_ makes _JS_ more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
 
 
 # Evidence / Research 
@@ -130,7 +129,7 @@ Another example of the amount of code required, is shown in the picture below, w
 _Picture 11_
 
 
-## 
+#
 
 
 ## The "Hacks" that starts disassembling TypeScript…
