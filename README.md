@@ -82,7 +82,7 @@ When asked about the technologies the developers [loved](https://insights.stacko
 ![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
 
 So to summarize: 
-While the surveys show that _JS_ is more “wanted” than _TS_, one reason for this could be because _TS_ is based on _JS_, thus knowledge and experience with _JS_ is required in order to work with _TS_. Furthermore, the fact that _TS_ beat _JS_in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
+While the surveys show that _JS_ is more “wanted” than _TS_, one reason for this could be because _TS_ is based on _JS_, thus knowledge and experience with _JS_ is required in order to work with _TS_. Furthermore, the fact that _TS_ beat _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
 
 
 ## So how did _static typing_ affect our project?
@@ -106,8 +106,6 @@ The tradeoff however, has been the fact that the team has spent less time debugg
 
 One of the simple _JS_ operations that suddenly slightly increased in complexity in _TS_, was when trying to get data from a simple inputfield.
 
-
-## 
 
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
@@ -166,50 +164,40 @@ Another way to avoid or in this case simply ignore an error thrown by _TS_, one 
 But just as with the exception for using the "_any_"-keyword, arguments for using the "//_@ts-ignore_" could also be made, due to some libraries perhaps lacking proper _TS_ support and documentation.
 
 
-While the project was developed using technologies such as React.js and NodeJS, special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the projects [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
+While the project was developed using technologies such as _React.js_ and _NodeJS_, special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the projects [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
 "//_@ts-ignore_"
 
 ![alt_text](/BlogAssignment/tsDependencies.png)
-
 
 _Picture 14_
 
 The effect of using these "backdoors" or "hacks", is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you loss the code consistency of knowing that all your variables have and use the correct _type_.
 
- 
 For a large scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might have needed to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
 # Alternatives
 
 If one does not want to switch to _TS_, but still wants the benefits if _static typing_ in a _JS_-project, there are alternative ways to achieve this.
 
-- The _Form_(https://flow.org/) library developed by Facebook
+- The [_Form_](https://flow.org/) library developed by Facebook
+
 ![Flow](/BlogAssignment/flow.png)
 
-- The open-source project _Reason_(https://reasonml.github.io/)
+- The open-source project [_Reason_](https://reasonml.github.io/)
+
 ![Reason](/BlogAssignment/ReasonLogo.png) 
 
 # Conclusion
 
-While the team had some problems adjusting to _TS_ and _static typing_ in the beginning of the project, in the end, we became quite fond of developing using it. 
+On the positive side of _static typing_:
 
+Yes, more work and time is required, but the benefits are a solid, stable and consistent code base and project structure, as well as great support for growing your code- and team-size.
+_TS_ is quite popular right now, supports a lot of popular frameworks and offers great support for future _JS_ features and tools.
 
-Once we got more comfortable working with typing standards we were familiar with from other programming languages, but now in a _JS_-project, a lot of the initial complaints and headaches began to subside.
+If you don't want to totally convert to _TS_ there are other options to switch your _JS_-project to _static typing_.
 
-Yes, because of _type-checking_, it does take more work and code than just plain _JS_, as well as the checks at compile time. But as we've hopefully shown throughout this blog, the benefits of minimizing mistakes, less time spent debugging and finding errors, was a great tradeoff.
-
-As seen in a couple of examples however, we admit that we did not follow the standards perfect during the project, since we've used the "_any_"-keyword and the "_//@ts-ignore_"-command. We hope that, as more and more modules roll out support for _TS_, we will be able to go back and apply the correct use of _TS_ and _static typing_ in the instances where we cut corners in order for development to progress. 
-
-It's important not to get tempted to only and always use such "hacking" features, since it defeats the purpose of _static typing_, and may hamper the future growth and development of your project.
-
-[Aux](https://medium.com/@auxx/typescript-pros-and-cons-873529634099) summarized a similar point regarding _static typing_ and TypeScript:
-
-"_Statically typed languages do minimise the amount of mistakes you make and improve code analysis so that all your tools like IDE can provide you hints, assistance and proper refactoring._
-
-_Yes, it forces you to type a bit more, and yes, types are optional in TS so you can easily shoot yourself in the foot, but I still find them very beneficial._
-
-_Especially for medium to large teams working on large projects which should be supported for many years._" 
-
+On the negative side of _static typing_: 
+A lot of libraries still lack proper TS documentation and support, meaning the _”any-keyword”_ or _”//ts-ignore”_ can sometimes be the only option to continue development.
 
 # Reflection
 
