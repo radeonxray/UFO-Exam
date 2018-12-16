@@ -36,7 +36,7 @@ In other words, _static tpying_ makes _JS_ more like other languages such as [Ja
 
 ## What does _static typing_ entail in TypeScript?
 
-One of the great benefits of _TS_ is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. This means that _TS_ compiles and checks the code for errors even before you execute your program. If _TS_ detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of _static typing_, below is shown code examples showing the same function written in respectively _JS_ and _TS_.
+One of the great benefits of _TS_ is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. If _TS_ detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of _static typing_, below is shown code examples showing the same function written in respectively _JS_ and _TS_.
 
 ![Picture C](/BlogAssignment/tsBasicJSEx.png) 
 
@@ -53,8 +53,7 @@ _Picture 4_
 
 On the above _TS_ code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. _TS_ has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
-Another quick example of _static typing_, is in the effect of _type-checking_. It means that for example variables (or return values in functions as seen in the previous picture) has to have their types defined, like string, number, Array etc. This effectively creates a "contract" for the developers that needs to be uphold, if the project is to compile correctly.
-
+Another quick example of _static typing_, is in the effect of _type-checking_, which means that variables (or return values in functions) has to have their types defined, like string, number, Array etc. This effectively creates a "contract" for the developers that needs to be uphold, if the project is to compile correctly.
 
 
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
@@ -77,11 +76,10 @@ Looking at the technologies that developers found [“most wanted”](https://in
 
 ![SOF-MostWanted](/BlogAssignment/stackoverflow-MostWanted.png)
 
-When asked about the technologies the developers [loved](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), 67.0% said they loved _TS_ which placed it 4th out of 25, placing it only behind technologies such as _Python_ (68.0%), _Kotlin_ (75.1%) and _Rust_ (78.9%), but it notably beating _JS_ which placed 7th with 61.9%.
+When asked about the technologies the developers [loved](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), 67.0% said they loved _TS_ which placed it 4th out of 25, placing it only behind technologies such as _Python_, _Kotlin_ and _Rust_, but it notably beating _JS_ which placed 7th with 61.9%.
 
 ![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
 
-So to summarize: 
 While the surveys show that _JS_ is more “wanted” than _TS_, one reason for this could be because _TS_ is based on _JS_, thus knowledge and experience with _JS_ is required in order to work with _TS_. Furthermore, the fact that _TS_ beat _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
 
 
@@ -113,7 +111,7 @@ One of the simple _JS_ operations that suddenly slightly increased in complexity
 _Picture 9: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
 
-However, when trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
+When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
 
 
 
@@ -142,7 +140,7 @@ While _TS_ primarily uses _static typing_, types are still optional, meaning the
 
 ### any-keyword 
 
-The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is a "wildcard" that re-introduces an element of _dynamic typing_ back into a _TS_-project. It allows the developer to mix and match _types_, as often seen in _JS_.
+The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is a "wildcard" that re-introduces an element of _dynamic typing_ back into a _TS_-project, allowing the developer to mix and match _types_, as in _JS_.
 
 
 ![alt_text](/BlogAssignment/tsAnyKeyword.png)
@@ -150,7 +148,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 
 _Picture 12: The use of the "any" keyword in action._
 
-One could argue however that there is a small exception for choosing to use the "any"-keyword. Due to the fact that many modules (in general) lack documentation for _TS_, it might not be possible to exactly define the right type required for a function to return, hence why the use of the any-keyword may be the only possible solution.
+One could argue that there is a small exception for choosing to use the "any"-keyword. Because many modules (in general) lack documentation for _TS_, it might not be possible to exactly define the right _type_ required for a function to return, hence why the use of the any-keyword may be the only possible solution .
 
 ### //@ts-ignore
 
