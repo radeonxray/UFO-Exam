@@ -201,15 +201,7 @@ A lot of libraries still lack proper TS documentation and support, meaning the _
 
 # Reflection
 
-The biggest challenge in transitioning from _JS_ to _TS_, is your mindset. One could classify _JS_ as "_the wild west_", where pretty much everything is allowed at your own risk, and _TS_ is civilization coming to tame the wild land and establish some ground rules.
-
-Based on our experience and if you want to create a new _JS_-project that is able to lay down some coding standards and be suitable for a large team development, we can only highly recommend giving _TS_ a look. The learning curve can be tricky and the documentation for modules can sometimes be missing, but our team felt it was worth the hassle and extra hours in the end. Should _TS_ maintains its [popularity](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), the documentation will slowly and surely follow. 
-
-We sadly didn't have time to go into all the topics and benefits related to _TS_(and there are quite a few, such as [ECMAScript 5 + 6, transpiler to ECMAScript 3](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/), ["Syntax sugar"](https://medium.com/@auxx/typescript-pros-and-cons-873529634099), browser compatibility and a lot of more), but if we did successfully catch your interest for learning more about _TS_, we would highly recommend you to go learn about _[interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html)_ and _[strict null checking](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/)_, since both these topics can be used in conjunction with _static typing_ to great effect!
-
-_![Picture P](/BlogAssignment/thewildwest.jpg)_
-
-_Picture 15_
+It took the team some time to get into the mindset of using static typing with _JS_, but based on our experience with using _TS_ during the development of our LSD-project, we would very likely use it again in the future. We sadly did not have enough time or pages to go into the bigger _“JavaScript vs. TypeScript”_ comparison or other beneficial features of _TS_, but we hope that this blog has given you enough of a taste for the benefits (and trappings) of _static typing_, so that you will give it a go yourself in your next _JS_-project, no matter if you implement it through using _TS_ or an alternative solution. If you have just a little experience with _JS_ and other languages such as _Java_ or _C#_, you should be up and running with _static typing_ pretty quickly.
 
 # 
 
