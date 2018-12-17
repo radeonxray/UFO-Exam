@@ -19,13 +19,15 @@ _Picture 1_
 # The issue: When JavaScript goes from _dynamic_ to _static_
 ![Puzzle](/BlogAssignment/dynamictypingvsstatictyping-puzzle.png)
 
+_Picture 2_
+
 One of the big changes that _TS_ introduces to _JS_, is the switch from [_dynamic typing_ to _static typing_](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb).
 
 The differences between the two can be explained as:
 - _Dynamic typing_: _Type-checking_ at runtime
 - _Static Typing_: _Type-checking_ at compile time
 
-Because of these differences, one of the benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
+Due to these differences one of the benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
 _Static typing_ makes _JS_ more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
 
 
@@ -74,6 +76,8 @@ When asked about the technologies the developers [loved](https://insights.stacko
 
 ![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
 
+_Picture 7_
+
 The fact that _TS_ beat _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
 
 
@@ -99,7 +103,7 @@ One of the simple _JS_ operations that slightly increased in complexity in _TS_,
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-_Picture 9: A standard looking OnChange-function. Same in TypeScript as in JavaScript_
+_Picture 9: A standard looking OnChange-function. Same in TS as in JS_
 
 
 When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a lot of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
@@ -110,7 +114,7 @@ When trying to extract the data in the handleCommentInput-function, the code now
 ![alt_text](/BlogAssignment/tsHandleCommentInput.png)
 
 
-_Picture 10: Notice the type that is expected for the event-variable_
+_Picture 10: Notice the type expected_
 
 Another example of the amount of code required is shown in the picture below, where the method is required to define both the parameter _type_ and also the return _type_. 
 
@@ -172,9 +176,13 @@ If one does not want to switch to _TS_, but still wants the benefits if _static 
 
 ![Flow](/BlogAssignment/flow.png)
 
+_Picture 15_
+
 - The open-source project [_Reason_](https://reasonml.github.io/)
 
-![Reason](/BlogAssignment/ReasonLogo.png) 
+![Reason](/BlogAssignment/ReasonLogo.png)
+
+_Picture 16_
 
 # Conclusion
 
@@ -208,7 +216,6 @@ It took the team some time to get into the mindset of using static typing with _
 *   [https://ionicframework.com/docs/developer-resources/typescript/](https://ionicframework.com/docs/developer-resources/typescript/) 03/12-2018
 *   [https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/) 03/12-2018
 *   [https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes](https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes) 03/12-2018
-*   [https://stackify.com/typescript-vs-javascript-migrate/](https://stackify.com/typescript-vs-javascript-migrate/) 03/12-2018
 *   [https://www.sitepoint.com/introduction-to-typescript/](https://www.sitepoint.com/introduction-to-typescript/) 03/12-2018
 *   [https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc](https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc) 03/12-2018
 *   [http://jonathancreamer.com/why-would-you-not-use-typescript/](http://jonathancreamer.com/why-would-you-not-use-typescript/) 03/12-2018
