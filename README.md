@@ -5,7 +5,7 @@
 _Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
 
 # Intro to TypeScript
-In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/) (known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/)-project (known as _JS_ from here on).
+In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/) (known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript next time you start a [JavaScript](https://www.javascript.com/)-project (known as _JS_ from here on).
 
 _TS_ is a superset of _JS_ developed as an open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of _JS_, since _TS_ and its new features are built on top of it.
 Some of the features in _TS_ includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest _JS_ features. 
@@ -42,17 +42,16 @@ _Picture 3_
 
 
 
-The above function expects a boolean value as parameter, you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter (as in the example above) and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using _TS_[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
+The above function expects a boolean value as parameter, you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using _TS_[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
 
 
 _![Picture D](/BlogAssignment/tsBasicTSEx.png)_
 
 _Picture 4_
 
-On the above _TS_ code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string (as shown in the example above), you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. _TS_ has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
+On the above _TS_ code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter and you are therefore not allowed to pass the function non-boolean values. If you do so anyway, e.g. by passing the function a string, you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. _TS_ has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
-Another quick example of _static typing_, is in the effect of _type-checking_, which means that variables (or return values in functions) has to have their types defined, like string, number, Array etc. This effectively creates a "contract" for the developers that needs to be uphold, if the project is to compile correctly.
-
+Another quick example of _static typing_, is in the effect of _type-checking_, which means that variables (or return values in functions) has to have their types defined, like string, number, Array etc.
 
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
