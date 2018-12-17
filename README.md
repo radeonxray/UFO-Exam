@@ -235,12 +235,12 @@ It took the team some time to get into the mindset of using static typing with _
 Pictures:
 
 1.  [https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png) 3/12-2018 
-1.  [https://memegenerator.net/instance/59547146/futurama-fry-not-sure-if-typescript-or-just-javascript](https://memegenerator.net/instance/59547146/futurama-fry-not-sure-if-typescript-or-just-javascript) 3/12-2018
-1.  [https://stackify.com/typescript-vs-javascript<-migrate/](https://stackify.com/typescript-vs-javascript) 08-12-2018 19.43[ ](https://stackify.com/typescript-vs-javascript%3c-migrate/)
-1.  [https://stackify.com/typescript-vs-javascript<-migrate/](https://stackify.com/typescript-vs-javascript) 08-12-2018 19.43[ ](https://stackify.com/typescript-vs-javascript%3c-migrate/)
+1.  [Static vs dynamic](https://i.redd.it/2uxj8u6yx9121.png) 13/12-2018
+1.  Screenshot
+1.  Screenshot
 1.  Screenshot
 1.  ScreenShot
-1.  [https://www.strava.com/clubs/266155](https://www.strava.com/clubs/266155) 09/12-2018
+1. [StackoverflowSurvey](https://insights.stackoverflow.com/survey/2018/#most-loved-dreaded-and-wanted)
 1.  Screenshot
 1.  Screenshot
 1.  Screenshot
@@ -248,4 +248,5 @@ Pictures:
 1.  Screenshot
 1.  Screenshot
 1.  Screenshot
-1.  [https://www.thevintagenews.com/2017/12/16/wild-west-era/](https://www.thevintagenews.com/2017/12/16/wild-west-era/) 09/12-2018
+1.  [Form](https://sdtimes.com/wp-content/uploads/2014/11/1118.sdt-flow.png)
+1.  [Reason](https://reasonml.github.io)
