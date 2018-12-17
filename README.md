@@ -36,7 +36,7 @@ _Static typing_ makes _JS_ more like other languages such as [Java](https://www.
 
 ## What does _static typing_ entail in TypeScript?
 
-One of the great benefits of _TS_ is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. If _TS_ detects an error at compile time, you will be notified immediately and the code will not compile. To clarify the benefit of _static typing_, below is shown code examples showing the same function written in respectively _JS_ and _TS_.
+One of the great benefits of _TS_ is that it, thanks to the _[static typing](https://www.sitepoint.com/introduction-to-typescript/)_, detects a lot of potential errors and introduces _[type-checking](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html)_. If _TS_ detects an error at compile time, you will be notified immediately, and the code will not compile. To clarify the benefit of _static typing_, below is shown code examples showing the same function written in respectively _JS_ and _TS_.
 
 ![Picture C](/BlogAssignment/tsBasicJSEx.png) 
 
