@@ -227,7 +227,7 @@ It took the team some time to get into the mindset of using static typing with _
 *   [TypeScripts class vs interface](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136) 09/12-2018
 * [Finally understanding static- vs dynamic-typing](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7)12/12-2018
 * [Statically typed vs Dynamically Typed](https://hackernoon.com/statically-typed-vs-dynamically-typed-languages-e4778e1ca55) 12/12-2018
-* [Companies using Ty[peScript](https://www.typescriptlang.org/community/friends.html) 12/12-2018
+* [Companies using TypeScript](https://www.typescriptlang.org/community/friends.html) 12/12-2018
 * [Frameworks supported by TypeScript](https://www.typescriptlang.org/samples/index.html) 12/12-2018
 
 
