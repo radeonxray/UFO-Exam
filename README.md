@@ -97,7 +97,7 @@ Note that the React.Component in the picture has "to know" what interfaces that 
 
 The tradeoff has been that the team has spent less time debugging for variables that have gone "bad" and perhaps mutated into other types than originally intended, while also avoiding un-instantiated variables. 
  
-One of the simple _JS_ operations that slightly increased in complexity in _TS_, was when trying to get data from a simple inputfield.
+One of the simple _JS_ operations that slightly increased in complexity in _TS_, was when trying to get data from a simple input field.
 
 
 ![alt_text](/BlogAssignment/tsOnChange.png)
