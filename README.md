@@ -39,7 +39,7 @@ One of the great benefits of _TS_ is that it, thanks to the _[static typing](htt
 
 ![Picture C](/BlogAssignment/tsBasicJSEx.png) 
 
-_Picture 3: The above JS code example demonstrates one of the biggest problems you may encounter by using plain JS_
+_Picture 3
 
 
 
@@ -58,7 +58,7 @@ Another quick example of _static typing_, is in the effect of _type-checking_, w
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
 
-_Picture 5: The code above is a very simple example that shows how variables are mutable in JS_
+_Picture 5
 
 
 
