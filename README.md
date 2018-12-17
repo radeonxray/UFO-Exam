@@ -58,7 +58,7 @@ Another quick example of _static typing_, is in the effect of _type-checking_, w
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
 
-_Picture 5
+_Picture 5_
 
 
 
@@ -93,10 +93,9 @@ _Picture 8_
 
 Also note in the picture that the React.Component has "to know" what interfaces are going to be used in the class and its state. This caused a lot confusion for most of the team members in the beginning, since they all of a sudden couldn't make simple array of objects like they had been used to in _JS_.
 
-The tradeoff however, has been the fact that the team has spent less time debugging for variables that have gone "bad" and perhaps mutated into other types than originally intended, while also avoiding un-instantiated variables. 
+The tradeoff has been that the team has spent less time debugging for variables that have gone "bad" and perhaps mutated into other types than originally intended, while also avoiding un-instantiated variables. 
  
-
-One of the simple _JS_ operations that suddenly slightly increased in complexity in _TS_, was when trying to get data from a simple inputfield.
+One of the simple _JS_ operations that slightly increased in complexity in _TS_, was when trying to get data from a simple inputfield.
 
 
 ![alt_text](/BlogAssignment/tsOnChange.png)
@@ -105,7 +104,7 @@ One of the simple _JS_ operations that suddenly slightly increased in complexity
 _Picture 9: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
 
 
-When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a good amount of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
+When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a lot of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
 
 
 
@@ -140,7 +139,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 ![alt_text](/BlogAssignment/tsAnyKeyword.png)
 
 
-_Picture 12: The use of the "any" keyword in action._
+_Picture 12_
 
 One could argue that there is a small exception for choosing to use the "any"-keyword. Because many modules (in general) lack documentation for _TS_, it might not be possible to exactly define the right _type_ required for a function to return, hence why the use of the any-keyword may be the only possible solution .
 
@@ -156,7 +155,7 @@ Another way to avoid or in this case simply ignore an error thrown by _TS_, one 
 But just as with the exception for using the "_any_"-keyword, arguments for using the "//_@ts-ignore_" could also be made, due to some libraries perhaps lacking proper _TS_ support and documentation.
 
 
-While the project was developed using technologies such as _React.js_ and _NodeJS_, special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the projects [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
+The project was developed using technologies such as _React.js_ and _NodeJS_, special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the projects [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
 "//_@ts-ignore_"
 
 ![alt_text](/BlogAssignment/tsDependencies.png)
@@ -165,7 +164,7 @@ _Picture 14_
 
 The effect of using these "backdoors" or "hacks", is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you loss the code consistency of knowing that all your variables have and use the correct _type_.
 
-For a large scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might have needed to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
+For a large scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might need to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
 # Alternatives
 
