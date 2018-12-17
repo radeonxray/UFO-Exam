@@ -194,7 +194,7 @@ _TS_ is quite popular right now, supports a lot of popular frameworks and offers
 If you don't want to totally convert to _TS_ there are other options to switch your _JS_-project to _static typing_.
 
 On the negative side of _static typing_: 
-A lot of libraries still lack proper TS documentation and support, meaning the _”any-keyword”_ or _”//ts-ignore”_ can sometimes be the only option to continue development.
+A lot of libraries still lack proper TS documentation and support, meaning the _"any-keyword"_ or _"//ts-ignore"_ can sometimes be the only option to continue development.
 
 # Reflection
 
