@@ -217,7 +217,7 @@ It took the team some time to get into the mindset of using static typing with _
 *   [Benefits of Migrating from JavaScript to TypeScript](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/) 03/12-2018
 *   [Learn TypeScript in 30 minutes](https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes) 03/12-2018
 *   [Site Point introduction to TypeScript](https://www.sitepoint.com/introduction-to-typescript/) 03/12-2018
-*   [Why you might not use TypeScript](https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc) 03/12-2018
+*   [Why you might not want to use TypeScript](https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc) 03/12-2018
 *   [Why would you not use TypeScript](http://jonathancreamer.com/why-would-you-not-use-typescript/) 03/12-2018
 *   [Stackoverflow Developer Survey](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted) 03/12-2018
 *   [Writing safer code with TypeScript strict null value](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/) 03/12-2018
