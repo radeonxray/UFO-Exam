@@ -235,7 +235,7 @@ It took the team some time to get into the mindset of using static typing with _
 Pictures:
 
 1.  [Typescript And ES](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Untitled-102-300x216.png) 3/12-2018 
-1.  [Static vs dynamic](https://i.redd.it/2uxj8u6yx9121.png) 13/12-2018
+1.  [Static vs dynamic](https://i.redd.it/2uxj8u6yx9121.png) 12/12-2018
 1.  Screenshot
 1.  Screenshot
 1.  Screenshot
@@ -248,5 +248,5 @@ Pictures:
 1.  Screenshot
 1.  Screenshot
 1.  Screenshot
-1.  [Form](https://sdtimes.com/wp-content/uploads/2014/11/1118.sdt-flow.png)
-1.  [Reason](https://reasonml.github.io)
+1.  [Form](https://sdtimes.com/wp-content/uploads/2014/11/1118.sdt-flow.png) 12/12-2018
+1.  [Reason](https://reasonml.github.io) 12/12-2018
