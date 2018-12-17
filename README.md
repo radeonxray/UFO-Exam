@@ -78,7 +78,7 @@ When asked about the technologies the developers [loved](https://insights.stacko
 
 _Picture 7_
 
-The fact that _TS_ beats _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
+The fact that _TS_ beats _JS_ in the "Most Loved"-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
 
 
 ## So how did _static typing_ affect our project?
