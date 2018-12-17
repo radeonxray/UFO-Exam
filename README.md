@@ -188,7 +188,7 @@ _Picture 16_
 
 On the positive side of _static typing_:
 
-Yes, more work and time is required, but the benefits are a solid, stable and consistent code base and project structure, as well as great support for growing your code- and team-size.
+Yes, more work and time are required, but the benefits are a solid, stable and consistent code base and project structure, as well as great support for growing your code- and team-size.
 _TS_ is quite popular right now, supports a lot of popular frameworks and offers great support for future _JS_ features and tools.
 
 If you don't want to totally convert to _TS_ there are other options to switch your _JS_-project to _static typing_.
