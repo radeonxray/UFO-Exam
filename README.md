@@ -143,7 +143,7 @@ The [any type](https://www.typescriptlang.org/docs/handbook/basic-types.html) is
 
 _Picture 12_
 
-One could argue that there is a small exception for choosing to use the "any"-keyword. Because many modules (in general) lack documentation for _TS_, it might not be possible to exactly define the right _type_ required for a function to return, hence why the use of the any-keyword may be the only possible solution .
+One could argue that there is a small exception for choosing to use the "any"-keyword. Because many modules (in general) lack documentation for _TS_, it might not be possible to exactly define the right _type_ required for a function to return, hence why the use of the any-keyword may be the only possible solution.
 
 ### //@ts-ignore
 
