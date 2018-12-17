@@ -44,7 +44,7 @@ _Picture 3_
 
 
 
-The above function expects a boolean value as parameter, you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using _TS_[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
+The above function expects a boolean value as parameter, but you can easily call the function with non-boolean parameters without getting any errors. E.g. you can pass the function a string as parameter and the code will still run without any problems. However, you will get an unexpected output from the function, and this may cause your entire program to respond in a different way than expected. By using _TS_[ type annotations](https://stackify.com/typescript-vs-javascript-migrate/) you can completely avoid encountering this problem.
 
 
 _![Picture D](/BlogAssignment/tsBasicTSEx.png)_
