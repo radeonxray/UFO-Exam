@@ -103,7 +103,7 @@ One of the simple _JS_ operations that slightly increased in complexity in _TS_,
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-_Picture 9: A standard looking OnChange-function. Same in TS as in JS_
+_Picture 9: A standard looking OnChange-function - same in TS as in JS_
 
 
 When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a lot of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
