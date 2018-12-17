@@ -72,13 +72,13 @@ _Picture 6: The same JS code as previously shown, but with errors due to being t
 [Stackoverflow](https://insights.stackoverflow.com/survey/2018) conducts a yearly survey asking their users various questions regarding their experience and thoughts about technologies. In 2018 over 100.000 developers from over 183 different countries completed the survey.
 
 
-When asked about the technologies the developers [loved](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), 67.0% said they loved _TS_ which placed it 4th out of 25, placing it only behind technologies such as _Python_, _Kotlin_ and _Rust_, but it notably beating _JS_ which placed 7th with 61.9%.
+When asked about the technologies the developers [loved](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), 67.0 % said they loved _TS_ which placed it 4th out of 25, placing it only behind technologies as _Python_, _Kotlin_ and _Rust_, but it notably beating _JS_ which placed 7th with 61.9 %.
 
 ![SOF-MostLoved](/BlogAssignment/stackoverflow-MostLoved.png)
 
 _Picture 7_
 
-The fact that _TS_ beat _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
+The fact that _TS_ beats _JS_ in the “Most Loved”-category would suggest that developers might be more happy working with _JS_ code when its _TS_, which perhaps might be because of features and tools found in _TS_.  
 
 
 ## So how did _static typing_ affect our project?
