@@ -23,11 +23,11 @@ _Picture 2_
 
 One of the big changes that _TS_ introduces to _JS_, is the switch from [_dynamic typing_ to _static typing_](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb).
 
-The differences between the two can be explained as:
+The differences between the two can be [explained](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7) as:
 - _Dynamic typing_: _Type-checking_ at runtime
 - _Static Typing_: _Type-checking_ at compile time
 
-Due to these differences one of the benefits of _static typing_ is that code optimization and performance will in general be better than _dynamic typing_, since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
+Due to these differences one of the benefits of _static typing_ is that [code optimization and performance will in general be better than _dynamic typing_](https://hackernoon.com/statically-typed-vs-dynamically-typed-languages-e4778e1ca55), since _static typing_ will not compile unless typing errors have been fixed, whereas _dynamic typing_ runs the risk of encountering type errors during runtime and crash the application. 
 _Static typing_ makes _JS_ more like other languages such as [Java](https://www.java.com/en/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and many more.
 
 
