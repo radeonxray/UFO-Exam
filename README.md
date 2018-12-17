@@ -7,7 +7,7 @@ _Features such as _static typing_ can make it troublesome to switch from JavaScr
 # Intro to TypeScript
 In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/) (known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript the next time you start a [JavaScript](https://www.javascript.com/)-project (known as _JS_ from here on).
 
-_TS_ is a superset of _JS_ developed as a open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of _JS_, since _TS_ and its new features are built on top of it.
+_TS_ is a superset of _JS_ developed as an open-source project by Microsoft. This basically means that you are required to have some sort of knowledge and understanding of _JS_, since _TS_ and its new features are built on top of it.
 Some of the features in _TS_ includes built-in support for ES5, ES6 and future versions of ECMA-script, given the developers access to the latest _JS_ features. 
 
 _TS_ also supports popular frameworks such as _React_, _React-Native_, _Vue_, _NodeJS_, _Angular_ and [more](https://www.typescriptlang.org/samples/index.html), and _TS_ is currently being used at companies such as _Bet365_, _SKY_, _UbiSoft_, _Ebay_ and [many more](https://www.typescriptlang.org/community/friends.html).
