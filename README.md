@@ -81,11 +81,9 @@ The fact that _TS_ beat _JS_ in the “Most Loved”-category would suggest that
 
 ## So how did _static typing_ affect our project?
 
-The team spent quite some time getting adjusted to the fact that we were writing _JS_-code, but with some modern features and rules. We would often forget to specify the _type_ of variable, especially when creating _[interfaces](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136)_, thus making it impossible to compile the project. 
-
 Using _static typing_ meant that the team had to write and define more code (due to _type-checking_) than would probably be needed if the team has opted to use _dynamic typing_. 
 
-As an example, below is a picture of an _interface_(basically a definition for an _object_) with _typed_ variables.
+As an example, below is a picture of an _interface_(a definition for an _object_) with _typed_ variables.
 
 
 ![alt_text](/BlogAssignment/tsTypedInterface.png)
