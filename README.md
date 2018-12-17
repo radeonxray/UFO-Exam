@@ -93,7 +93,7 @@ As an example, below is a picture of an _interface_ (a definition for an _object
 
 _Picture 8_
 
-Also note in the picture that the React.Component has "to know" what interfaces are going to be used in the class and its state. This caused a lot confusion for most of the team members in the beginning, since they all of a sudden couldn't make simple array of objects like they had been used to in _JS_.
+Note that the React.Component in the picture has "to know" what interfaces that are going to be used in the class and its state. This caused a lot confusion for most of the team members in the beginning, since they all of a sudden couldn't make simple array of objects like they had been used to in _JS_.
 
 The tradeoff has been that the team has spent less time debugging for variables that have gone "bad" and perhaps mutated into other types than originally intended, while also avoiding un-instantiated variables. 
  
