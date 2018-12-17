@@ -100,7 +100,7 @@ One of the simple _JS_ operations that slightly increased in complexity in _TS_,
 ![alt_text](/BlogAssignment/tsOnChange.png)
 
 
-_Picture 9: A fairly standard looking OnChange-function in a JSX-element. Same in TypeScript as in JavaScript_
+_Picture 9: A standard looking OnChange-function. Same in TypeScript as in JavaScript_
 
 
 When trying to extract the data in the handleCommentInput-function, the code now requires the developer to define the correct parameter _type_. This can sometimes result in spending a lot of time, which makes it even more important for the developers to know what tools and modules they are working with, so they can quickly narrow down the possibilities. 
@@ -113,7 +113,7 @@ When trying to extract the data in the handleCommentInput-function, the code now
 
 _Picture 10: Notice the type that is expected for the event-variable_
 
-Another example of the amount of code required, is shown in the picture below, where the method is required to not only define the parameter _type_, but also the return _type_. 
+Another example of the amount of code required is shown in the picture below, where the method is required to define both the parameter _type_ and also the return _type_. 
 
 
 ![alt_text](/BlogAssignment/tsHandleSubmit.png)
