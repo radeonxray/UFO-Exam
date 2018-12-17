@@ -221,10 +221,8 @@ It took the team some time to get into the mindset of using static typing with _
 *   [Why would you not use TypeScript](http://jonathancreamer.com/why-would-you-not-use-typescript/) 03/12-2018
 *   [Stackoverflow Developer Survey](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted) 03/12-2018
 *   [Writing safer code with TypeScript strict null value](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/) 03/12-2018
-*   [The good, the bad and the ugly about TypeScript](https://blog.codeminer42.com/the-good-the-bad-and-the-ugly-of-typescript-58a3ff3e248)
-*   09/12-2018
-*   [Don't let TypeScript slow you down](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)
-*   09/12-2018 
+*   [The good, the bad and the ugly about TypeScript](https://blog.codeminer42.com/the-good-the-bad-and-the-ugly-of-typescript-58a3ff3e248) 09/12-2018
+*   [Don't let TypeScript slow you down](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f) 09/12-2018 
 *   [TypeScript basics](https://www.typescriptlang.org/docs/handbook/basic-types.html) 09/12-2018
 *   [TypeScripts class vs interface](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136) 09/12-2018
 * [Finally understanding static- vs dynamic-typing](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7)12/12-2018
