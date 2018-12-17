@@ -207,28 +207,28 @@ It took the team some time to get into the mindset of using static typing with _
 
 
 
-*   [https://medium.com/@auxx/typescript-pros-and-cons-873529634099](https://medium.com/@auxx/typescript-pros-and-cons-873529634099) 03/12-2018
-*   [https://itnext.io/why-use-typescript-good-and-bad-reasons-ccd807b292fb](https://itnext.io/why-use-typescript-good-and-bad-reasons-ccd807b292fb) 03/12-2018
-*   [https://medium.freecodecamp.org/when-should-i-use-typescript-311cb5fe801b](https://medium.freecodecamp.org/when-should-i-use-typescript-311cb5fe801b) 03/12-2018
-*   [https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010](https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010) 03/12-2018
-*   [https://stackify.com/typescript-vs-javascript-migrate/](https://stackify.com/typescript-vs-javascript-migrate/) 03/12-2018
-*   [https://medium.freecodecamp.org/its-time-to-give-typescript-another-chance-2caaf7fabe61](https://medium.freecodecamp.org/its-time-to-give-typescript-another-chance-2caaf7fabe61) 03/12-2018
-*   [https://ionicframework.com/docs/developer-resources/typescript/](https://ionicframework.com/docs/developer-resources/typescript/) 03/12-2018
-*   [https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/) 03/12-2018
-*   [https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes](https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes) 03/12-2018
-*   [https://www.sitepoint.com/introduction-to-typescript/](https://www.sitepoint.com/introduction-to-typescript/) 03/12-2018
-*   [https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc](https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc) 03/12-2018
-*   [http://jonathancreamer.com/why-would-you-not-use-typescript/](http://jonathancreamer.com/why-would-you-not-use-typescript/) 03/12-2018
-*   [https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted) 03/12-2018
-*   [https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/) 03/12-2018
-*   [https://blog.codeminer42.com/the-good-the-bad-and-the-ugly-of-typescript-58a3ff3e248](https://blog.codeminer42.com/the-good-the-bad-and-the-ugly-of-typescript-58a3ff3e248)
+*   [Aux on TypeScript Pro's and con's](https://medium.com/@auxx/typescript-pros-and-cons-873529634099) 03/12-2018
+*   [Why use TypeScript](https://itnext.io/why-use-typescript-good-and-bad-reasons-ccd807b292fb) 03/12-2018
+*   [When should I use TypeScript](https://medium.freecodecamp.org/when-should-i-use-typescript-311cb5fe801b) 03/12-2018
+*   [TypeScript and why one should use it](https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010) 03/12-2018
+*   [Typescript vs. Javascript migration](https://stackify.com/typescript-vs-javascript-migrate/) 03/12-2018
+*   [Its Time to give TypeScript another chance](https://medium.freecodecamp.org/its-time-to-give-typescript-another-chance-2caaf7fabe61) 03/12-2018
+*   [Ionicframework and TypeScript](https://ionicframework.com/docs/developer-resources/typescript/) 03/12-2018
+*   [Benefits of Migrating from JavaScript to TypeScript](https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/) 03/12-2018
+*   [Learn TypeScript in 30 minutes](https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes) 03/12-2018
+*   [Site Point introduction to TypeScript](https://www.sitepoint.com/introduction-to-typescript/) 03/12-2018
+*   [Why you might not use TypeScript](https://medium.jonasbandi.net/here-is-why-you-might-not-want-to-use-typescript-part-1-alternatives-ec1248bb6dc) 03/12-2018
+*   [Why would you not use TypeScript](http://jonathancreamer.com/why-would-you-not-use-typescript/) 03/12-2018
+*   [Stackoverflow Developer Survey](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted) 03/12-2018
+*   [Writing safer code with TypeScript strict null value](https://shinesolutions.com/2017/01/06/writing-safer-code-with-typescript-strict-null-checks-type-guards/) 03/12-2018
+*   [The good, the bad and the ugly about TypeScript](https://blog.codeminer42.com/the-good-the-bad-and-the-ugly-of-typescript-58a3ff3e248)
 *   09/12-2018
-*   [https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)
+*   [Don't let TypeScript slow you down](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)
 *   09/12-2018 
-*   [https://medium.com/@FloSloot/tree-shaking-lets-implement-it-8de1c29f49e9](https://medium.com/@FloSloot/tree-shaking-lets-implement-it-8de1c29f49e9)
-*   09/12-2018
-*   [https://www.typescriptlang.org/docs/handbook/basic-types.html](https://www.typescriptlang.org/docs/handbook/basic-types.html) 09/12-2018
-*   [https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136) 09/12-2018
+*   [TypeScript basics](https://www.typescriptlang.org/docs/handbook/basic-types.html) 09/12-2018
+*   [TypeScripts class vs interface](https://medium.com/front-end-hacking/typescript-class-vs-interface-99c0ae1c2136) 09/12-2018
+* [Finally understanding static- vs dynamic-typing](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7)12/12-2018
+* [Statically typed vs Dynamically Typed](https://hackernoon.com/statically-typed-vs-dynamically-typed-languages-e4778e1ca55)
 
 
 
