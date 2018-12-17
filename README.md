@@ -53,7 +53,7 @@ _Picture 4_
 
 On the above _TS_ code example, it's explicitly stated that the function is going to return a string and receive a boolean as parameter. If you still pass it with a non-boolean parameter, e.g. a string, you will immediately be shown an error message telling you that you are not allowed to pass the function a string as it expects a boolean. _TS_ has therefore made sure both that you have detected the error immediately and accurately showed where the error is.
 
-Another quick example of _static typing_, is in the effect of _type-checking_, which means that variables (or return values in functions) has to have their types defined, like string, number, Array etc.
+Another quick example of _static typing_, is in the effect of _type-checking_, which means that variables (or return values in functions) must have their types defined, like string, number, Array etc.
 
 ![alt_text](/BlogAssignment/tsTypeAnnotation.png)
 
