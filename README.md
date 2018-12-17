@@ -23,7 +23,7 @@ _Picture 2_
 
 One of the big changes that _TS_ introduces to _JS_, is the switch from [_dynamic typing_ to _static typing_](https://medium.freecodecamp.org/why-use-static-types-in-javascript-part-1-8382da1e0adb).
 
-The differences between the two can be [explained](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7) as:
+The difference between the two can be [explained](https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-will-too-ad0c2bd0acc7) as:
 - _Dynamic typing_: _Type-checking_ at runtime
 - _Static Typing_: _Type-checking_ at compile time
 
