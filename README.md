@@ -152,7 +152,7 @@ One could argue that there is a small exception for choosing to use the "any"-ke
 
 _Picture 13_
 
-Another way to avoid or in this case simply ignore an error thrown by _TS_, one can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then _TS_ will ignore the next line of code. 
+Another way to avoid or in this case simply ignore an error thrown by _TS_, you can simply write "_[//@-ts-ignore](https://medium.com/@vitalyb/dont-let-typescript-slow-you-down-92d394ec8c9f)_" and then _TS_ will ignore all errors found on the next line of code. 
 
 But as with the exception for using the "_any_"-keyword, arguments for using "//_@ts-ignore_" can also be made, due to some libraries perhaps lacking proper _TS_ support and documentation.
 
@@ -164,7 +164,7 @@ The project was developed using technologies such as _React.js_ and _NodeJS_, sp
 
 _Picture 14_
 
-The effect of using these "backdoors" or "hacks" is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you lose the code consistency of knowing that all your variables have and use the correct _type_.
+The effect of using these "backdoors"/"hacks" is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you lose the code consistency of knowing that all your variables have and use the correct _type_.
 
 For a large-scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might need to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
