@@ -158,7 +158,7 @@ But as with the exception for using the "_any_"-keyword, arguments for using "//
 
 
 Our project was developed using the technologies _React.js_ and _NodeJS_. Special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the project's [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
-"//_@ts-ignore_"
+"//_@ts-ignore_".
 
 ![alt_text](/BlogAssignment/tsDependencies.png)
 
