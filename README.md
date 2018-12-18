@@ -116,7 +116,7 @@ When trying to extract the data in the handleCommentInput-function, the code now
 
 _Picture 10: Notice the type expected_
 
-Another example of the amount of code required is shown in the picture below, where the method is required to define both the parameter _type_ and also the return _type_. 
+Another example of the amount of code required is shown in the picture below, where the method is required to define both the parameter _type_ and the return _type_. 
 
 
 ![alt_text](/BlogAssignment/tsHandleSubmit.png)
