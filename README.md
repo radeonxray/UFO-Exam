@@ -83,7 +83,7 @@ The fact that _TS_ beats _JS_ in the "Most Loved"-category would suggest that de
 
 ## So how did _static typing_ affect our project?
 
-Using _static typing_ meant that the team had to write and define more code (due to _type-checking_) than would probably be needed if the team has opted to use _dynamic typing_. 
+Using _static typing_ meant that the team had to write and define more code (due to _type-checking_) than would probably be needed if the team had opted to use _dynamic typing_. 
 
 As an example, below is a picture of an _interface_ (a definition for an _object_) with _typed_ variables.
 
