@@ -166,7 +166,7 @@ _Picture 14_
 
 The effect of using these "backdoors" or "hacks" is that you start breaking the "contract" between you and your fellow developers. Functions may not work as intended and might not even take the correct parameters as the tooltip states, and you lose the code consistency of knowing that all your variables have and use the correct _type_.
 
-For a large scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might need to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
+For a large-scale project, using _TS_ correctly could therefore potentially greatly reduce the time and resources you might need to maintain the project. But you have to avoid the use of the "_any_"-keyword and "_//@ts-ignore_" as much as possible to achieve it.
 
 # Alternatives
 
