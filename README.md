@@ -157,7 +157,7 @@ Another way to avoid or in this case simply ignore an error thrown by _TS_, you 
 But as with the exception for using the "_any_"-keyword, arguments for using "//_@ts-ignore_" can also be made, due to some libraries perhaps lacking proper _TS_ support and documentation.
 
 
-The project was developed using technologies such as _React.js_ and _NodeJS_, special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the projects [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
+Our project was developed using the technologies _React.js_ and _NodeJS_. Special libraries (@types/) had to be downloaded in order to proper function with _TS_ as seen in the picture below, showing the project's [dependencies](https://nodejs.org/en/docs/meta/topics/dependencies/). These are also the libraries that can help avoid the need to use 
 "//_@ts-ignore_"
 
 ![alt_text](/BlogAssignment/tsDependencies.png)
