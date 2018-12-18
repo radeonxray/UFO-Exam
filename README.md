@@ -69,7 +69,7 @@ _Picture 6: The same JS code as previously shown, but with errors due to being t
 
 ## Why TypeScript?
 
-[Stackoverflow](https://insights.stackoverflow.com/survey/2018) conducts a yearly survey asking their users various questions regarding their experience and thoughts about technologies. In 2018 over 100.000 developers from over 183 different countries completed the survey.
+[Stackoverflow](https://insights.stackoverflow.com/survey/2018) conducts a yearly survey asking their users various questions regarding their experience and thoughts about technologies. In 2018 over 100.000 developers from over 183 different countries completed this survey.
 
 
 When asked about the technologies the developers [loved](https://insights.stackoverflow.com/survey/2018#most-loved-dreaded-and-wanted), 67.0 % said they loved _TS_ which placed it 4th out of 25, placing it only behind technologies as _Python_, _Kotlin_ and _Rust_, but it notably beating _JS_ which placed 7th with 61.9 %.
