@@ -170,7 +170,7 @@ For a large-scale project, using _TS_ correctly could therefore potentially grea
 
 # Alternatives
 
-If one does not want to switch to _TS_, but still wants the benefits if _static typing_ in a _JS_-project, there are alternative ways to achieve this.
+If you don't want to switch to _TS_, but still want the benefits of _static typing_ in a _JS_-project, there are alternative ways to achieve this.
 
 - The [_Form_](https://flow.org/) library developed by Facebook
 
