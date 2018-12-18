@@ -2,7 +2,7 @@
 > By _Christian Olsen_ & _Zaeem Rafique_
 
 
-_Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided, but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grows larger._
+_Features such as _static typing_ can make it troublesome to switch from JavaScript to TypeScript. Static typing can be ignored or avoided but doing so breaks some of the fundamentals of TypeScript in the process. While you will need to write a bit more code in TypeScript, you will end up with more readable, secure and less confusing code. Sticking to the rules of static typing will help you better maintain your project, even as it and your team grow larger._
 
 # Intro to TypeScript
 In this blog, we want to shed some light on _static typing_ in [TypeScript](http://www.typescriptlang.org/) (known as _TS_ from here on), how it affected the development of our [LSD-project](https://github.com/BingoBois), what we learned to do (and not do) and why you should consider using TypeScript next time you start a [JavaScript](https://www.javascript.com/)-project (known as _JS_ from here on).
